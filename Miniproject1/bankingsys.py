@@ -198,9 +198,3 @@ class Employee:
 Employee first name: {} 
 Employee last name: {}
 Employee salary: {}""".format(self.id, self.first_name, self.last_name)
-
-
-acct = BankAccount(28375, 1000, 12345, 15000)
-print(acct)
-acct.withdraw(-5000)
-print(acct)
